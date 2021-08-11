@@ -23,13 +23,13 @@
       }
 
       /* Your code start */
-      button {
+      #chat-btn {
         position: fixed;
         bottom: 2rem;
         right: 2rem;
       }
       @media only screen and (max-width: 600px) {
-        button {
+        #chat-btn {
           position: fixed;
           bottom: 50vh;
           right: -1rem;
@@ -39,9 +39,11 @@
       /* Your code end */
     </style>
 
-    <title>Bootstrap</title>
+    <title>Fixed Button</title>
   </head>
   <body>
-    <button>Chat with us<br /><span>powered by klara</span></button>
+    <button id="chat-btn">
+      Chat with us<br /><span>powered by klara</span>
+    </button>
   </body>
 </html>
